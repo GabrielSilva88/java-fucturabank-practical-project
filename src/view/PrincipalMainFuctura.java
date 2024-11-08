@@ -3,7 +3,7 @@ package view;
 import controller.Menu;
 import controller.Operacoes;
 
-public class Principal {
+public class PrincipalMainFuctura {
 
 	/*
 	 * O projeto precisará de uma classe Principal, que contenha o método main.
@@ -20,8 +20,7 @@ public class Principal {
 		Operacoes.poupancas.get(0).exibirDados();
 		*/
 		Menu.exibirMenu();
-		Menu.exibirContaPoupanca();
-		Menu.exibirContaCorrente();
+
 		
 	}
 }

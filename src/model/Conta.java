@@ -17,8 +17,7 @@ public abstract class Conta {
 			→ Getters e Setters
 	 
 	 */
-	
-	
+
 	public String exibirDados(){
 		return "Número da Conta; " + numeroConta + "\nTitular: " + nomeTitular;
 	}
@@ -36,7 +35,8 @@ public abstract class Conta {
 		return numeroConta;
 	}
 
-	// set e get
+	// GET(){} SET(){}
+
 	public void setNumeroConta(String numeroConta) {
 		numeroConta = numeroConta;
 	}
