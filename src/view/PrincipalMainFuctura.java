@@ -1,5 +1,7 @@
 package view;
 
+import java.util.Scanner;
+
 import controller.Menu;
 import controller.Operacoes;
 
@@ -13,6 +15,8 @@ public class PrincipalMainFuctura {
 	
 	public static void main(String[] args) {
 		
+		Scanner scan = new Scanner(System.in);
+		int opcao = 0;
 		/*Operacoes.criarConta();
 		
 		Operacoes.correntes.get(0).exibirDados();
@@ -20,6 +24,12 @@ public class PrincipalMainFuctura {
 		Operacoes.poupancas.get(0).exibirDados();
 		*/
 		Menu.exibirMenu();
+		
+		 while (opcao != 5) {
+			System.out.println("Digite uma opção: ");
+			opcao = scan.nextInt();
+			
+		}
 
 		
 	}
